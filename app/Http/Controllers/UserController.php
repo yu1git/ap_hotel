@@ -11,6 +11,6 @@ class UserController extends Controller
     {
         $items = User::all();
 
-        return view('user.index',['item' => $items]);
+        return view('user.index',['items' => $items]);
     }
 }

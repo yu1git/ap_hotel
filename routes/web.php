@@ -16,3 +16,8 @@ Route::get('/', function () {
 });
 
 Route::get('/user','UserController@index');
+
+Route::get('/reserve','ReservationController@index');
+
+//予約詳細
+//Route::get('/detail','DetailController@index');
