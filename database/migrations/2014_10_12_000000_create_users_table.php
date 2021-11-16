@@ -18,6 +18,7 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('address');
             $table->string('tel');
+            //integerは計算したいもの。電話番号などはstringが無難
             $table->timestamps();
             
         });

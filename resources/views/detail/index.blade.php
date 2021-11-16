@@ -2,15 +2,15 @@
 
 @section('body')
     <table>
-    <th>お名前</th><th>ご住所</th><th>電話番号</th><th>人数</th><th>チェックイン</th><th>チェックアウト</th>
+    <th>お名前</th><th>ご住所</th><th>電話番号</th><th>人数</th><th>宿泊日</th><th>宿泊料</th>
     @foreach($items as $item)
     <tr>
         <td>{{$item->getName()}}</td>
         <td>{{$item->getAddress()}}</td>
         <td>{{$item->getTel()}}</td>
-        <td>{{$item->member}}</td>
-        <td>{{$item->checkin}}</td>
-        <td>{{$item->checkout}}</th>
+        <td>{{$item->getMember()}}</td>
+        <td>{{$item->lodgingDay}}</td>
+        <td>{{$item->lodgingCharge}}円</td>
     </tr>
     @endforeach
     </table>
