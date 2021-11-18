@@ -37,6 +37,8 @@
                 <li><a href="/user">利用者一覧</a></li>
                 <li><a href="/reserve">予約一覧</a></li>
                 <li><a href="/detail">予約明細一覧</a></li>
+                <li><a href="/room">部屋一覧</a></li>
+                <li><a href="/kind">部屋種一覧</a></li>
                 <li><a href="/user/add">利用者登録</li>
                 <li><a href="/reserve/add">予約追加</li>
             </ul>

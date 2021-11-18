@@ -15,7 +15,9 @@ class ReservationsTableSeeder extends Seeder
             'user_id' => '1',
             'member' => '2',
             'checkin' => '2021-10-20',
-            'checkout' => '2021-10-21'
+            'checkout' => '2021-10-21',
+            'created_at' => now(),
+            'updated_at' => now(),
         ];
         DB::table('reservations')->insert($param);
 
@@ -23,7 +25,9 @@ class ReservationsTableSeeder extends Seeder
             'user_id' => '2',
             'member' => '4',
             'checkin' => '2021-10-22',
-            'checkout' => '2021-10-23'
+            'checkout' => '2021-10-23',
+            'created_at' => now(),
+            'updated_at' => now(),
         ];
         DB::table('reservations')->insert($param);
     }
